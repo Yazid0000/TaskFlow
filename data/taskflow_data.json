@@ -1,0 +1,78 @@
+[
+  {
+    "id": "85c0666b-9f8a-4068-8849-823b0dddadfd",
+    "name": "Nettocar",
+    "description": "",
+    "createdAt": "2026-06-07T19:35:02.467394500",
+    "columns": [
+      {
+        "name": "À faire",
+        "color": "#E6F1FB",
+        "tasks": [
+          {
+            "id": "6fa97332-6de7-4d17-bccc-ac7b6fcd007a",
+            "title": "a",
+            "description": "a",
+            "priority": "HIGH",
+            "dueDate": "2026-06-08",
+            "createdAt": "2026-06-08T04:43:27.697795100",
+            "updatedAt": "2026-06-08T04:54:36.154938200"
+          }
+        ]
+      },
+      {
+        "name": "En cours",
+        "color": "#FAEEDA",
+        "tasks": [
+          {
+            "id": "dd51ef84-3f6a-40c6-bf08-a1d86e6f4b0f",
+            "title": "b",
+            "description": "",
+            "priority": "MEDIUM",
+            "dueDate": "2026-06-07",
+            "createdAt": "2026-06-08T04:43:31.065396700",
+            "updatedAt": "2026-06-08T04:43:51.624274500"
+          }
+        ]
+      },
+      {
+        "name": "Terminé",
+        "color": "#EAF3DE",
+        "tasks": [
+          {
+            "id": "ff4b3b3f-0f45-4812-ba4b-d09c395ee1c3",
+            "title": "c",
+            "description": "tache",
+            "priority": "MEDIUM",
+            "dueDate": "2026-06-08",
+            "createdAt": "2026-06-08T04:43:34.091465300",
+            "updatedAt": "2026-06-08T04:44:14.852486100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "601d3fd4-d5c1-44b0-bb09-06dca84eb97c",
+    "name": "opticloud",
+    "description": "",
+    "createdAt": "2026-06-08T04:54:00.722435100",
+    "columns": [
+      {
+        "name": "À faire",
+        "color": "#E6F1FB",
+        "tasks": []
+      },
+      {
+        "name": "En cours",
+        "color": "#FAEEDA",
+        "tasks": []
+      },
+      {
+        "name": "Terminé",
+        "color": "#EAF3DE",
+        "tasks": []
+      }
+    ]
+  }
+]
