@@ -63,23 +63,26 @@ scroll.setBorder(null);
 return scroll;
 }
 private JPanel buildFooter() {
-JPanel footer = new JPanel(new BorderLayout());
-footer.setBackground(new Color(245, 245, 250));
-footer.setBorder(new EmptyBorder(8, 8, 8, 8));
-JButton btnNew = new JButton("+ Nouveau projet");
-btnNew.setFocusPainted(false);
-btnNew.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-btnNew.addActionListener(e -> {
-String name = JOptionPane.showInputDialog(
-SidebarPanel.this, "Nom du projet :",
-"Nouveau projet", JOptionPane.PLAIN_MESSAGE
-);
-if (name != null && !name.trim().isEmpty()) {
-pc.createProject(name.trim(), "");
-}
-});
-footer.add(btnNew, BorderLayout.CENTER);
-return footer;
+    JPanel footer = new JPanel(new BorderLayout());
+    footer.setBackground(new Color(245, 245, 250));
+    footer.setBorder(new EmptyBorder(8, 8, 8, 8));
+
+    JButton btnNew = new JButton("＋ Nouveau projet");
+    btnNew.setFocusPainted(false);
+    btnNew.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+    btnNew.setPreferredSize(new Dimension(200, 38));
+    btnNew.setFont(new Font("SansSerif", Font.PLAIN, 13));
+    btnNew.addActionListener(e -> {
+        String name = JOptionPane.showInputDialog(
+            SidebarPanel.this, "Nom du projet :",
+            "Nouveau projet", JOptionPane.PLAIN_MESSAGE
+        );
+        if (name != null && !name.trim().isEmpty()) {
+            pc.createProject(name.trim(), "");
+        }
+    });
+    footer.add(btnNew, BorderLayout.CENTER);
+    return footer;
 }
 private void showContextMenu(MouseEvent e) {
 int index = projectList.locationToIndex(e.getPoint());

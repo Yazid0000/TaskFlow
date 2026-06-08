@@ -56,15 +56,18 @@ scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 return scroll;
 }
 private JPanel buildAddBtn() {
-JPanel footer = new JPanel(new BorderLayout());
-footer.setBackground(new Color(225, 228, 240));
-footer.setBorder(new EmptyBorder(0, 8, 0, 8));
-JButton btn = new JButton("+ Ajouter une tache");
-btn.setFocusPainted(false);
-btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-btn.addActionListener(e -> showAddTaskDialog());
-footer.add(btn, BorderLayout.CENTER);
-return footer;
+    JPanel footer = new JPanel(new BorderLayout());
+    footer.setBackground(new Color(225, 228, 240));
+    footer.setBorder(new EmptyBorder(0, 8, 0, 8));
+
+    JButton btn = new JButton("＋ Ajouter une tâche");
+    btn.setFocusPainted(false);
+    btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+    btn.setPreferredSize(new Dimension(200, 38));
+    btn.setFont(new Font("SansSerif", Font.PLAIN, 13));
+    btn.addActionListener(e -> showAddTaskDialog());
+    footer.add(btn, BorderLayout.CENTER);
+    return footer;
 }
 private void showAddTaskDialog() {
 String title = JOptionPane.showInputDialog(

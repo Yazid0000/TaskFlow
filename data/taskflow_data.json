@@ -1,22 +1,39 @@
 [
   {
-    "id": "85c0666b-9f8a-4068-8849-823b0dddadfd",
-    "name": "Nettocar",
-    "description": "",
-    "createdAt": "2026-06-07T19:35:02.467394500",
+    "id": "110901b1-63e8-4418-a23c-91fff4438588",
+    "name": "Application Mobile",
+    "description": "Développement d\u0027une app mobile de livraison",
+    "createdAt": "2026-06-09T00:19:59.551473",
     "columns": [
       {
         "name": "À faire",
         "color": "#E6F1FB",
         "tasks": [
           {
-            "id": "6fa97332-6de7-4d17-bccc-ac7b6fcd007a",
-            "title": "a",
-            "description": "a",
+            "id": "7ce186ba-39c2-4d48-a023-5449565556a6",
+            "title": "Concevoir la base de données",
+            "description": "Modéliser les tables utilisateurs, commandes et produits",
             "priority": "HIGH",
-            "dueDate": "2026-06-08",
-            "createdAt": "2026-06-08T04:43:27.697795100",
-            "updatedAt": "2026-06-08T04:54:36.154938200"
+            "dueDate": "2026-06-14",
+            "createdAt": "2026-06-09T00:19:59.562478300",
+            "updatedAt": "2026-06-09T00:19:59.565478100"
+          },
+          {
+            "id": "4f878f8a-a082-4052-ae05-0c076cad601f",
+            "title": "Rédiger les spécifications",
+            "description": "Document de spécifications fonctionnelles v1.0",
+            "priority": "MEDIUM",
+            "dueDate": "2026-06-12",
+            "createdAt": "2026-06-09T00:19:59.565478100",
+            "updatedAt": "2026-06-09T00:19:59.566486800"
+          },
+          {
+            "id": "b7a3c535-38d3-48b7-b687-97808a82f6bf",
+            "title": "Créer les maquettes UI",
+            "description": "Wireframes et prototypes Figma validés",
+            "priority": "MEDIUM",
+            "createdAt": "2026-06-09T00:19:59.570493",
+            "updatedAt": "2026-06-09T00:20:35.007044700"
           }
         ]
       },
@@ -25,13 +42,21 @@
         "color": "#FAEEDA",
         "tasks": [
           {
-            "id": "dd51ef84-3f6a-40c6-bf08-a1d86e6f4b0f",
-            "title": "b",
-            "description": "",
-            "priority": "MEDIUM",
-            "dueDate": "2026-06-07",
-            "createdAt": "2026-06-08T04:43:31.065396700",
-            "updatedAt": "2026-06-08T04:43:51.624274500"
+            "id": "49470114-607d-4f2b-99d6-bb954fddaffa",
+            "title": "Développer l\u0027écran de connexion",
+            "description": "Login / Register avec validation des champs",
+            "priority": "HIGH",
+            "dueDate": "2026-06-08",
+            "createdAt": "2026-06-09T00:19:59.567494900",
+            "updatedAt": "2026-06-09T00:19:59.569495500"
+          },
+          {
+            "id": "3baab0e5-afe0-4fd1-98a3-0d8929408be2",
+            "title": "Intégrer l\u0027API de paiement",
+            "description": "Intégration Stripe pour les paiements en ligne",
+            "priority": "CRITICAL",
+            "createdAt": "2026-06-09T00:19:59.569495500",
+            "updatedAt": "2026-06-09T00:19:59.569495500"
           }
         ]
       },
@@ -40,38 +65,114 @@
         "color": "#EAF3DE",
         "tasks": [
           {
-            "id": "ff4b3b3f-0f45-4812-ba4b-d09c395ee1c3",
-            "title": "c",
-            "description": "tache",
-            "priority": "MEDIUM",
-            "dueDate": "2026-06-08",
-            "createdAt": "2026-06-08T04:43:34.091465300",
-            "updatedAt": "2026-06-08T04:44:14.852486100"
+            "id": "d78aae8b-dcd5-4087-94b7-ef1607575e8f",
+            "title": "Configurer l\u0027environnement de dev",
+            "description": "Installer Android Studio, configurer Git",
+            "priority": "LOW",
+            "createdAt": "2026-06-09T00:19:59.566486800",
+            "updatedAt": "2026-06-09T00:20:10.795003600"
+          },
+          {
+            "id": "c7d3f35f-b16b-4c08-b0dd-9ef18dfaffb6",
+            "title": "Charte graphique",
+            "description": "Définir couleurs, typographies et composants",
+            "priority": "LOW",
+            "createdAt": "2026-06-09T00:19:59.571493300",
+            "updatedAt": "2026-06-09T00:20:32.146036300"
+          },
+          {
+            "id": "fcfe0761-030d-489d-8c22-ffe8ae24ecd5",
+            "title": "Réunion de lancement",
+            "description": "Kick-off meeting avec toute l\u0027équipe",
+            "priority": "LOW",
+            "createdAt": "2026-06-09T00:19:59.572493500",
+            "updatedAt": "2026-06-09T00:20:33.554308700"
           }
         ]
       }
     ]
   },
   {
-    "id": "601d3fd4-d5c1-44b0-bb09-06dca84eb97c",
-    "name": "opticloud",
-    "description": "",
-    "createdAt": "2026-06-08T04:54:00.722435100",
+    "id": "6d9ffba0-38ca-4ab2-adb4-2f4ecb858d5b",
+    "name": "Site E-commerce",
+    "description": "Refonte complète du site de vente en ligne",
+    "createdAt": "2026-06-09T00:19:59.574496300",
     "columns": [
       {
         "name": "À faire",
         "color": "#E6F1FB",
-        "tasks": []
+        "tasks": [
+          {
+            "id": "4a1365a1-587a-4566-a295-2ce66855041a",
+            "title": "Optimiser les performances",
+            "description": "Améliorer le temps de chargement des pages",
+            "priority": "HIGH",
+            "createdAt": "2026-06-09T00:19:59.575499500",
+            "updatedAt": "2026-06-09T00:19:59.575499500"
+          },
+          {
+            "id": "3b9aa9d6-495c-4ddc-9ba8-0ceca714f8c2",
+            "title": "Ajouter le module de avis clients",
+            "description": "Système de notation et commentaires produits",
+            "priority": "MEDIUM",
+            "dueDate": "2026-06-16",
+            "createdAt": "2026-06-09T00:19:59.576497500",
+            "updatedAt": "2026-06-09T00:19:59.577495"
+          }
+        ]
       },
       {
         "name": "En cours",
         "color": "#FAEEDA",
-        "tasks": []
+        "tasks": [
+          {
+            "id": "a7c17af6-859c-4a16-9754-78fc2debba57",
+            "title": "Refonte de la page d\u0027accueil",
+            "description": "Nouveau design responsive mobile-first",
+            "priority": "CRITICAL",
+            "dueDate": "2026-06-07",
+            "createdAt": "2026-06-09T00:19:59.577495",
+            "updatedAt": "2026-06-09T00:19:59.578495600"
+          },
+          {
+            "id": "e13adabb-0424-4f8c-9334-87d5992dcff2",
+            "title": "Intégrer le système de filtres",
+            "description": "Filtres par catégorie, prix, marque",
+            "priority": "HIGH",
+            "createdAt": "2026-06-09T00:19:59.579493600",
+            "updatedAt": "2026-06-09T00:19:59.579493600"
+          }
+        ]
       },
       {
         "name": "Terminé",
         "color": "#EAF3DE",
-        "tasks": []
+        "tasks": [
+          {
+            "id": "7bbe2aa9-10f1-4071-af5b-43a2229ab1d8",
+            "title": "Audit du site existant",
+            "description": "Analyse des performances et points d\u0027amélioration",
+            "priority": "MEDIUM",
+            "createdAt": "2026-06-09T00:19:59.580496300",
+            "updatedAt": "2026-06-09T00:19:59.580496300"
+          },
+          {
+            "id": "baf9d8ae-8d64-4610-85df-33cef30f6dbd",
+            "title": "Mise en place du SSL",
+            "description": "Certificat HTTPS installé et configuré",
+            "priority": "CRITICAL",
+            "createdAt": "2026-06-09T00:19:59.582493700",
+            "updatedAt": "2026-06-09T00:19:59.582493700"
+          },
+          {
+            "id": "f1b3746e-8122-4cae-acfb-af229a152588",
+            "title": "Migration vers le nouveau serveur",
+            "description": "Transfert des données et configuration DNS",
+            "priority": "HIGH",
+            "createdAt": "2026-06-09T00:19:59.583493800",
+            "updatedAt": "2026-06-09T00:19:59.583493800"
+          }
+        ]
       }
     ]
   }

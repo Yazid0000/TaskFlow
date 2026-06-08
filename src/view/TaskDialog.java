@@ -92,22 +92,31 @@ form.add(attachPanel, gbc);
 return form;
 }
 private JPanel buildButtons() {
-JPanel panel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-panel.setBorder(new EmptyBorder(10, 0, 0, 0));
-JButton btnCancel = new JButton("Annuler");
-btnCancel.addActionListener(e -> dispose());
-JButton btnSave = new JButton("Sauvegarder");
-btnSave.setFocusPainted(false);
-btnSave.addActionListener(e -> saveAndClose());
-// Raccourci clavier : Échap = Annuler
-getRootPane().registerKeyboardAction(
-e -> dispose(),
-KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
-JComponent.WHEN_IN_FOCUSED_WINDOW
-);
-panel.add(btnCancel);
-panel.add(btnSave);
-return panel;
+    JPanel panel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+    panel.setBorder(new EmptyBorder(10, 0, 0, 0));
+
+    JButton btnCancel = new JButton("✖ Annuler");
+    btnCancel.setFocusPainted(false);
+    btnCancel.setPreferredSize(new Dimension(130, 38));
+    btnCancel.setFont(new Font("SansSerif", Font.PLAIN, 13));
+    btnCancel.addActionListener(e -> dispose());
+
+    JButton btnSave = new JButton("✔ Sauvegarder");
+    btnSave.setFocusPainted(false);
+    btnSave.setPreferredSize(new Dimension(150, 38));
+    btnSave.setFont(new Font("SansSerif", Font.PLAIN, 13));
+    btnSave.addActionListener(e -> saveAndClose());
+
+    // Raccourci Échap = Annuler
+    getRootPane().registerKeyboardAction(
+        e -> dispose(),
+        KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0),
+        JComponent.WHEN_IN_FOCUSED_WINDOW
+    );
+
+    panel.add(btnCancel);
+    panel.add(btnSave);
+    return panel;
 }
 // Pré-remplit les champs avec les valeurs actuelles de la tâche
 private void populateFields() {
