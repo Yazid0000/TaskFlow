@@ -29,13 +29,13 @@ TaskFlow est une application de bureau développée en **Java** avec **Eclipse I
 ## 📸 Captures d'écran
 
 ### Vue principale
-<!-- Ajouter screenshot vue principale ici -->
+![Vue principale](screenshots/menu(2).png)
 
-### Création d'une tâche
-<!-- Ajouter screenshot formulaire de création ici -->
+### Statistique
+![Statistique](screenshots/stat.png)
 
-### Liste des tâches
-<!-- Ajouter screenshot liste des tâches ici -->
+### Modification de tâche
+![Modification](screenshots/modif.png)
 
 ---
 
